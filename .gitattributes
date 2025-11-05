@@ -1,0 +1,24 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# HTML files - keep as generated (LF)
+*.html text eol=lf
+
+# Generated files from Quarto
+index_files/** text eol=lf
+
+# Source files
+*.qmd text eol=lf
+*.R text eol=lf
+*.py text eol=lf
+
+# Data files
+*.csv text eol=lf
+
+# Binary files
+*.pdf binary
+*.pptx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
